@@ -1,23 +1,12 @@
 class ProductPage {
-  //price
   get productPrice() {
+    //price
     return $('#our_price_display');
   }
 
-  //increasing the number of products
-  get productQuantityAdd() {
-    return $('#quantity_wanted_p > a.btn.btn-default.button-plus.product_quantity_up > span > i');
-  }
-
-  //TODO - w kroku okna informacyjnego pokazuje ""
-  //total number of products
   get productQuantityInfo() {
+    //total number of products
     return $('#quantity_wanted');
-  }
-
-  //TODO
-  get chooseSize() {
-    return $('TODO');
   }
 
   //product color: white
